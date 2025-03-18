@@ -8,7 +8,7 @@
 
 ## Model
 
-```MERMAID
+```mermaid
 erDiagram
     EMPLOYEE ||--|| ADDRESS : resides_at
     EMPLOYEE ||--|{ DEPARTMENT : belongs_to
